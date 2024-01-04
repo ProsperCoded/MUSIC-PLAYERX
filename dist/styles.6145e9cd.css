@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-image: url("/cover.c54b30f6.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 25, 0) 50%, #ff0019), linear-gradient(to bottom, rgba(255, 0, 25, 0) 80%, #ff0019, #ff0019), url("/cover.c54b30f6.jpg");
+}
+
+.slider {
+  padding: 1rem 2em;
+}
+
+.slider__input {
+  width: 100%;
+  -webkit-appearance: none;
+  background: transparent;
+  outline: none !important;
+}
+.slider__input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  background: #ff0019;
+  box-shadow: 0 0 2px 0 #555;
+  border: 0.2rem solid #fff;
+  transform: translateY(-50%);
+  margin-top: 0.4333333333rem;
+}
+.slider__input::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: #fff;
+  border-radius: 2rem;
+  height: 0.65rem;
+  cursor: pointer;
+}
+
+
+
+
+/*# sourceMappingURL=/styles.6145e9cd.css.map */

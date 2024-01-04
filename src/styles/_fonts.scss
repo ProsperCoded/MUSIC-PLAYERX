@@ -1,0 +1,9 @@
+$primary-font: "Kanit";
+$secondary-font: "dragon";
+$primary-font-large: "Kanit Medium";
+@include x.embed-font($primary-font, "./../static/fonts/Kanit-Light.ttf");
+@include x.embed-font(
+  $primary-font-large,
+  "./../static/fonts/Kanit-Medium.ttf"
+);
+@include x.embed-font($secondary-font, "./../static/fonts/dragon.ttf");

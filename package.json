@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "global": "^4.4.0",
+    "parcel-bundler": "^1.12.5",
+    "webpack": "^5.89.0"
+  },
+  "name": "music-player",
+  "description": "You're welcome. I'm happy to suggest another project idea for you. How about building a **music player** using HTML, CSS, and JavaScript? A music player is a web application that allows users to play, pause, skip, and shuffle songs from a playlist. You can use this project to demonstrate your knowledge of creating user interfaces, manipulating the DOM, and handling events.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
